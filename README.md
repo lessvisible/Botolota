@@ -32,19 +32,22 @@ app.use(express.json());
 //Upon start a webhook is registered with twitter
 //Upon closure the webhook is removed from twitter
 
-const twitterAPIKey = "Place your consumer key here";
-const twitterSecretAPIKey = "Place you secret consumer key here";
-const twitterAccessToken = "Place your access token here";
-const twitterSecretAccessToken = "Place your secret access token here";
+const twitterAPIKey = "
+Blov4i66Pqp3oYHr6LprAueAD";
+const twitterSecretAPIKey = "
+yRpr0SP6gjLoSuHZ1v8TFkn9bgjacjyzBuZ24nUUkMBW1l9g07";
+const twitterAccessToken = "922101485944500224-Aqf9W2UKjyRd133Y1p39kaaUCQMKmtB";
+const twitterSecretAccessToken = "lZTTHaMuwfgm2TcWRwU6ZOB14BxZp0kYjSZao91UK8lWv";
 const targetUrl = "Place your server's url here";
-const projectId = "Place your dialogflow projectId here";
-const environmentName = "Place your twitter environment name here";
+const projectId = "botolota-twitter-kbevfn";
+const environmentName = "Botolota";
 
 const twitterOAuth = {
-  consumer_key: twitterAPIKey,
-  consumer_secret: twitterSecretAPIKey,
-  token: twitterAccessToken,
-  token_secret: twitterSecretAccessToken
+  consumer_key: 
+8VIEFK4C1jnRrH0SVcRRT35cj,
+  consumer_secret: Bagxqv1Jzgx8tFFbtLS6AxIeWRKk8j68rjwDJDOJ4pXrxekQc6,
+  token: 922101485944500224-Aqf9W2UKjyRd133Y1p39kaaUCQMKmtB,
+  token_secret: lZTTHaMuwfgm2TcWRwU6ZOB14BxZp0kYjSZao91UK8lWv
 };
 
 const twitterId = twitterAccessToken.substring(0, twitterAccessToken.indexOf("-"));
